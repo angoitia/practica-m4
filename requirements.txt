@@ -1,0 +1,19 @@
+# Dependencias de ejecución
+mlflow>=3.0,<4
+scikit-learn>=1.5,<2
+pandas>=2.2,<3
+numpy>=1.26,<3
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+pydantic>=2.7,<3
+
+# Dependencias de desarrollo y pruebas
+pytest>=8,<10
+httpx2>=2.0,<3
+
+# Dependencias del notebook original de la tarea (EDA)
+jupyterlab>=4.2,<5
+ipykernel>=6.29,<7
+nbconvert>=7.16,<8
+matplotlib>=3.9,<4
+seaborn>=0.13,<1

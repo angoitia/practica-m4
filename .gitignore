@@ -1,0 +1,30 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Cuadernos
+.ipynb_checkpoints/
+
+# Estado local de MLflow y artefactos generados
+mlflow.db
+mlflow.db-*
+mlruns/
+artifacts/reports/*.json
+!artifacts/reports/.gitkeep
+
+# Datos generados (recrearlos con `python -m mlops.pipeline`)
+data/raw/*.csv
+data/processed/*.csv
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Entorno local
+.env
+*.log
